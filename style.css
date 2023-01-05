@@ -151,7 +151,8 @@ a {
 /* 4th Page Slider */
 .forth-page {
 	min-height: 100vh;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	position: relative;
 }
 .purchase-left {
@@ -186,6 +187,10 @@ a {
 	padding: 0.5rem 0.3rem;
 	cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+}
+
 /* Purchase right */
 .purchase-right {
 	flex: 1;
